@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>智慧家庭_智能家电解决方案</title>
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/sfq.css">
+    <link rel="stylesheet" href="css/zh-common.css">
+    <link rel="stylesheet" href="css/lx-index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon">
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/lx-index.js"></script>
+</head>
+
+<body>
+    <!-- 顶部导航 -->
+    <header>
+        <div class="nav w clearfix">
+            <div class="haier-logo" title="海尔"><a href="">海尔</a></div>
+            <ul class="">
+                <li><a href="javascript:;">智慧首页</a></li>
+                <li><a href="./lcc_index.html">智家方案</a></li>
+                <li><a href="./xxyindex.html">智慧家电</a></li>
+                <li><a href="./haier-live.html">生活资讯</a></li>
+                <li><a href="javascript:;">智慧体验店</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 焦点图区域 -->
+    <div class="banner">
+        <!-- Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src=" images/c1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src=" images/c2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src=" images/c3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src=" images/c4.png" alt=""></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                spaceBetween: 10,
+                centeredSlides: true,
+                loop: true,
+                autoplay: {
+                    delay: 3500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                }
+
+            });
+        </script>
+    </div>
+
+    <!-- 智慧场景 -->
+    <div class="smart_scene w">
+        <h2>智慧场景</h2>
+        <div class="ss_show">
+            <div class="ss_video">
+                <div class="videodemos">
+                    <ul id="videolist">
+                        <li>
+                            <video src="video/6.mp4" style="width:100%" autoplay muted loop></video>
+                        </li>
+                        <li>
+                            <video src="video/9.mp4" style="width:100%" autoplay muted loop></video>
+                        </li>
+                        <li>
+                            <video src="video/18.mp4" style="width:100%" autoplay muted loop></video>
+                        </li>
+                        <li>
+                            <video src="video/20.mp4" style="width:100%" autoplay muted loop></video>
+                        </li>
+                        <li>
+                            <video src="video/22.mp4" style="width:100%" autoplay muted loop></video>
+                        </li>
+                    </ul>
+
+
+                </div>
+                <div> <button id="video-btn"><span class="iconfont play">&#xe65f;</span>查看完整视频</button> </div>
+                <div id="hiddenBox" style="display:none">
+
+                    <div id="mask"> </div>
+                    <div id="fullVideo">
+                        <div class="hiddenV" style="display:block"><video src="video/6.mp4" style="width:100%"
+                                controls></video></div>
+                        <div class="hiddenV"><video src="video/9.mp4" style="width:100%" controls></video></div>
+                        <div class="hiddenV"><video src="video/18.mp4" style="width:100%" controls></video></div>
+                        <div class="hiddenV"><video src="video/20.mp4" style="width:100%" controls></video></div>
+                        <div class="hiddenV"><video src="video/22.mp4" style="width:100%" controls></video></div>
+                        <div id="close-btn"><img src="  images/close.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ss_info">
+                <div class="ss_info_time">
+                    <div class="time1 current">
+                        <div class="time1-wds">
+                            <div class="time1-wds_l">
+                                <img src=" images/6dian.png" alt="">
+                                <p>晨起</p>
+                            </div>
+                            <div class="time1-wds_r">早上06:00</div>
+                        </div>
+                        <div class="time1-pic">
+                            <div class="time1-pic-1">
+                                <img src=" images/drsq.png" alt="">
+                                <p>电热水器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/znjsq.png" alt="">
+                                <p>智能洁身器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/znmj.png" alt="">
+                                <p>智能魔镜</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/znyx.png" alt="">
+                                <p>智能音箱</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time1">
+                        <div class="time1-wds">
+                            <div class="time1-wds_l">
+                                <img src=" images/9dian.png" alt="">
+                                <p>离家</p>
+                            </div>
+                            <div class="time1-wds_r">早上09:00</div>
+                        </div>
+                        <div class="time1-pic">
+                            <div class="time1-pic-1">
+                                <img src=" images/zntz.png" alt="">
+                                <p>智能套装</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/kqjhq.png" alt="">
+                                <p>空气净化器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/sdjqr.png" alt="">
+                                <p>扫地机器人</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/znmj.png" alt="">
+                                <p>智能魔镜</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time1">
+                        <div class="time1-wds">
+                            <div class="time1-wds_l">
+                                <img src=" images/6dian.png" alt="">
+                                <p>回家</p>
+                            </div>
+                            <div class="time1-wds_r">傍晚18:30</div>
+                        </div>
+                        <div class="time1-pic">
+                            <div class="time1-pic-1">
+                                <img src=" images/xyyj.png" alt="">
+                                <p>吸油烟机</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/kqjhq.png" alt="">
+                                <p>空气净化器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/gskt.png" alt="">
+                                <p>变频柜式空调</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/bx.png" alt="">
+                                <p>冰箱</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time1">
+                        <div class="time1-wds">
+                            <div class="time1-wds_l">
+                                <img src=" images/20dian.png" alt="">
+                                <p>休闲</p>
+                            </div>
+                            <div class="time1-wds_r">晚上20:30</div>
+                        </div>
+                        <div class="time1-pic">
+                            <div class="time1-pic-1">
+                                <img src=" images/sdjqr.png" alt="">
+                                <p>扫地机器人</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/kqjhq.png" alt="">
+                                <p>空气净化器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/gskt.png" alt="">
+                                <p>柜式空调</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/ds.png" alt="">
+                                <p>电视</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="time1">
+                        <div class="time1-wds">
+                            <div class="time1-wds_l">
+                                <img src=" images/22dian.png" alt="">
+                                <p>休息</p>
+                            </div>
+                            <div class="time1-wds_r">晚上22:30</div>
+                        </div>
+                        <div class="time1-pic">
+                            <div class="time1-pic-1">
+                                <img src=" images/gtxyj.png" alt="">
+                                <p>滚筒洗衣机</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/drsq.png" alt="">
+                                <p>电热水器</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/zntz.png" alt="">
+                                <p>智能套装</p>
+                            </div>
+                            <div class="time1-pic-1">
+                                <img src=" images/znyx.png" alt="">
+                                <p>智能音箱</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="prev" id="arr_l"><img src=" images/prev.png" alt=""></div>
+                    <div class="next" id="arr_r"><img src=" images/next.png" alt=""></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- 智家方案 -->
+    <div class="IntellectualHome">
+        <div class="inserImg">
+
+            <img src=" images/smartfamily2018_bg2.png">
+
+
+        </div>
+
+        <div class="IH w">
+            <h2 class="IH-title">智家方案</h2>
+            <div class="IH-content">
+                <div class="item_box box10">
+                    <div class="item_box_wp">
+                        <div class="voice_2">
+                            <ul>
+                                <li class="li1" id="li1">
+                                    <div class="fold" style="display:none;">
+                                        <img src=" images/smartfamily2018_tabicon4.png" alt="">
+                                        <div class="fold-words">
+                                            食<br>
+                                            联<br>
+                                            生<br>
+                                            态
+                                        </div>
+
+                                    </div>
+                                    <div class="unfold" style="display:block">
+                                        <div class="eat">
+                                            <div class="eat-l">
+                                                <img src=" images/smartfamily2018_icon4.png" alt="">
+                                            </div>
+                                            <div class="eat-r">
+                                                <p class="t">食联生态</p>
+                                                <p class="d">智慧厨房场景下的物联网健康美食解决方案</p>
+                                            </div>
+                                        </div>
+                                        <dl>
+                                            <dt><img src=" images/smartfamily2018_pc_shilian_b.png" /></dt>
+
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li class="li2">
+                                    <div class="fold">
+                                        <img src=" images/smartfamily2018_tabicon5.png" alt="">
+                                        <div class="fold-words">
+                                            衣<br>
+                                            联<br>
+                                            生<br>
+                                            态
+                                        </div>
+                                    </div>
+                                    <div class="unfold">
+                                        <div class="eat">
+                                            <div class="eat-l">
+                                                <img src=" images/smartfamily2018_icon5.png" alt="">
+                                            </div>
+                                            <div class="eat-r">
+                                                <p class="t">食联生态</p>
+                                                <p class="d">基于物联网的衣物全生命周期管理平台</p>
+                                            </div>
+                                        </div>
+                                        <dl>
+                                            <dt><img src=" images/smartfamily2018_pc_yilian_b.png" /></dt>
+
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li class="li3">
+                                    <div class="fold">
+                                        <img src=" images/smartfamily2018_tabicon2.png" alt="">
+                                        <div class="fold-words">
+                                            全<br>
+                                            屋<br>
+                                            用<br>
+                                            水
+                                        </div>
+                                    </div>
+                                    <div class="unfold">
+                                        <div class="eat">
+                                            <div class="eat-l">
+                                                <img src=" images/smartfamily2018_icon2.png" alt="">
+                                            </div>
+                                            <div class="eat-r">
+                                                <p class="t">食联生态</p>
+                                                <p class="d">全球用水智慧，海尔一站集成</p>
+                                            </div>
+                                        </div>
+                                        <dl>
+                                            <dt><img src=" images/smartfamily2018_pc_shuilian_b.png" /></dt>
+
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li class="li4">
+                                    <div class="fold">
+                                        <img src=" images/smartfamily2018_tabicon1.png" alt="">
+                                        <div class="fold-words">
+                                            全<br>
+                                            屋<br>
+                                            空<br>
+                                            气
+                                        </div>
+                                    </div>
+                                    <div class="unfold">
+                                        <div class="eat">
+                                            <div class="eat-l">
+                                                <img src="  images/smartfamily2018_icon1.png" alt="">
+                                            </div>
+                                            <div class="eat-r">
+                                                <p class="t">食联生态</p>
+                                                <p class="d">定制你的专属健康空气</p>
+                                            </div>
+                                        </div>
+                                        <dl>
+                                            <dt><img src="  images/smartfamily2018_pc_kongqi_b.png" /></dt>
+
+                                        </dl>
+                                    </div>
+                                </li>
+                                <li class="li5">
+                                    <div class="fold">
+                                        <img src="  images/smartfamily2018_tabicon3.png" alt="">
+                                        <div class="fold-words">
+                                            全<br>
+                                            屋<br>
+                                            安<br>
+                                            防
+                                        </div>
+                                    </div>
+                                    <div class="unfold">
+                                        <div class="eat">
+                                            <div class="eat-l">
+                                                <img src="  images/smartfamily2018_icon3.png" alt="">
+                                            </div>
+                                            <div class="eat-r">
+                                                <p class="t">食联生态</p>
+                                                <p class="d">智慧生活，从安全开始</p>
+                                            </div>
+                                        </div>
+                                        <dl>
+                                            <dt><img src="  images/smartfamily2018_pc_anfang_b.png" /></dt>
+
+                                        </dl>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footerImg"><img src="  images/insertimg.png" alt=""></div>
+    </div>
+    <!-- 产品推荐 -->
+    <div class="product-home">
+        <div class="ph-content w">
+            <h2>产品推荐 <span class="zhjd">更多智慧家电</span></h2>
+            <div class="ph-pics">
+                <div class="p1">
+                    <div class="p1-img">
+                        <img src="  images/bx.png" alt="">
+                    </div>
+                    <div class="p1-txt">
+                        <p>冰箱</p>
+                        <span>
+                            智能人感交互 连接更多新鲜可能
+                        </span>
+                    </div>
+                </div>
+                <div class="p2">
+                    <div class="p2-t">
+                        <div class="p2-t-img">
+                            <img src="  images/gtxyj.png" alt="">
+                        </div>
+                        <div class="p2-t-txt">
+                            <p>
+                                洗烘一体机</p>
+                            <span>
+
+                                JIT衣干即停 避免衣物过度烘干
+
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="p2-f">
+                        <div class="p2-f-img">
+                            <img src="  images/rqrsq.png" alt="">
+                        </div>
+                        <div class="p2-f-txt">
+                            <p>燃气热水器</p>
+                            <span>
+                                零冷水技术
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="p3">
+                    <div class="p3-t">
+                        <div class="p2-f-img">
+                            <img src="  images/bqgskt.png" alt="">
+                        </div>
+                        <div class="p2-f-txt">
+                            <p>变频柜式空调</p>
+                            <span>
+                                太空舱净化系统
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="p3-f">
+                        <div class="p3-f-img">
+                            <img src="  images/sdjqr3.png" alt="">
+                        </div>
+                        <div class="p3-f-txt">
+                            <p>
+                                扫地机器人</p>
+                            <span>
+
+                                镭射扫描LDS激光导航系统
+
+                            </span>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="p4">
+                    <div class="p4-t">
+                        <div class="p3-f-img">
+                            <img src="  images/znds.png" alt="">
+                        </div>
+                        <div class="p3-f-txt">
+                            <p>
+                                智能电视</p>
+                            <span>
+
+                                4K影视VIP
+
+                            </span>
+                        </div>
+                    </div>
+                    <div class="p4-f">
+                        <div class="p2-f-img">
+                            <img src="  images/znyx.png" alt="">
+                        </div>
+                        <div class="p2-f-txt">
+                            <p>智能音箱</p>
+                            <span>
+                                智能家居中控
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- 产品热评 -->
+    <div class="hot-comment">
+        <div class="hc-content w">
+            <h2>产品热评 <span class="zhjd">更多产品热评</span></h2>
+            <div class="hc-show">
+                <div class="s1">
+                    <div class="s1-pic">
+                        <img src="  images/hekt.png" alt="">
+                    </div>
+                    <span class="s1-span">
+                        海尔空调，全家清新好空气
+                    </span>
+                    <p class="s1-p">
+
+                        夏日炎炎，格外难熬，而一台好用的空调可以帮你在夏日过得更舒畅。 海尔无氟变频空调，快速制冷，智能操控，使用更便捷，调节更方便;一键自清洁，...
+
+                    </p>
+                    <div class="s1-user">
+                        <div class="user-header">
+                            <img src="  images/u1.jpeg" alt="">
+                        </div>
+                        <span class="uname">梦玲</span>
+                        <div class="viewpoint">
+                            <div class="zan"><img src="  images/zan.png"> <i>12525</i><img src="  images/yan.png">
+                                <i>46553</i></div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="s1">
+                    <div class="s1-pic">
+                        <img src="  images/hebx.png" alt="">
+                    </div>
+                    <span class="s1-span">
+
+                        你离便利生活只有一台海尔冰...
+                    </span>
+                    <p class="s1-p">
+
+
+                        我们都渴望过上有品质的生活，居住在干净的房屋里，周围都是自动化的电器，阳光与爱人，现在的你，离你想要的美好生活还有多远呢? 　　想要我们的...
+
+
+                    </p>
+                    <div class="s1-user">
+                        <div class="user-header">
+                            <img src="  images/u2.jpeg" alt="">
+                        </div>
+                        <span class="uname">小智</span>
+                        <div class="viewpoint">
+                            <div class="zan"><img src="  images/zan.png"> <i>12525</i><img src="  images/yan.png">
+                                <i>46553</i></div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="s1">
+                    <div class="s1-pic">
+                        <img src="  images/hexyj.png" alt="">
+                    </div>
+                    <span class="s1-span">
+
+                        海尔洗衣机，解放你的劳动力
+                    </span>
+                    <p class="s1-p">
+
+
+                        不知大家有没有发现，脏衣服其实是个可以“自我繁殖”的物体~ 忙碌的上班族们的衣服寄生在家里的床上，沙发上，椅子上，柜子里~经过一段时间的繁殖...
+
+
+                    </p>
+                    <div class="s1-user">
+                        <div class="user-header">
+                            <img src="  images/u3.jpg" alt="">
+                        </div>
+                        <span class="uname">卡夫卡</span>
+                        <div class="viewpoint">
+                            <div class="zan"><img src="  images/zan.png"> <i>12525</i><img src="  images/yan.png">
+                                <i>46553</i></div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <!-- <div class="s2">2</div>
+                <div class="s3">3</div> -->
+            </div>
+        </div>
+
+    </div>
+    <!-- 我的智家 -->
+    <div class="mySmartHome">
+        <div class="sm-l">
+            <!-- Slider Container -->
+            <section class="slider-container">
+                <h2 class="mySH">我的智家</h2>
+                <ul id="slider" class="slider-wrapper">
+                    <li class="slide-current">
+                        <img src="  images/wdzj1.png" alt="Slider Imagen 1">
+                        <div class="caption">
+                            <h3 class="caption-title"> 回家了你就是“甩手”掌柜</h3>
+                            <p>家始终是你的港湾，是可以尽情放松的地方。 我们减少你的焦虑，给你打造畅快放松的空间。
+                            </p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="  images/wdzj2.png" alt="Slider Imagen 1">
+                        <div class="caption">
+                            <h3 class="caption-title"> 放轻松，享受属于你的舒适空间</h3>
+                            <p>入睡时是安逸的，晨起时是舒适的，海尔智慧家电，给你的私人空间带来一 份温馨与惬意，为你在繁忙拥挤的生活中，带来片刻的舒适与</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="  images/wdzj3.png" alt="Slider Imagen 1">
+                        <div class="caption">
+                            <h3 class="caption-title"> 365天，美味不重样</h3>
+                            <p> 千篇一律的菜式已经无法满足现在的你，总想做些新的尝试提升厨艺，却苦于无从下手，智慧冰箱和智慧烤箱能给你带来些灵感。</p>
+                        </div>
+                    </li>
+
+                    <li>
+                        <img src="  images/wdzj4.png" alt="Slider Imagen 1">
+                        <div class="caption">
+                            <h3 class="caption-title"> 智慧洗浴新体验</h3>
+                            <p>我们知道你熟悉每位家人的偏好，但我们希望给你备个贴心小管家，根据不同的需求和身体状况，为你和家人备好所需的温度，健康洗浴套系—</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- Sombras -->
+                <div class="shadow"></div>
+
+                <!-- Controles -->
+                <ul id="slider-controls" class="slider-controls"></ul>
+
+
+            </section>
+
+        </div>
+
+        <div class="sm-r">
+            <div class="sm-r-box">
+                <div class="sm-r-pic"><img src="  images/xxtyd.png" alt=""></div>
+                <div class="sm-r-link">
+                    <a href="http://localhost:3000/map" target="_blank"><span class="iconfont">&#xe611;</span>线下体验店</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- 生活资讯 -->
+    <div class="life-section w">
+        <h2>生活资讯 <span class="zhjd">更多生活资讯</span></h2>
+        <div class="life-content-box">
+            <a href="javascript:;">
+                <div class="b-left">
+                    <img src="  images/shzx3.jpg" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="b-right">
+                    <span class="b-right-tit">一骑红尘妃子笑，无人知是荔枝来</span>
+                    <p>
+                        <span>海尔冷柜</span><i>|</i>
+                        <span>食物存储</span><i>|</i>
+                        <span>励志</span>
+                    </p>
+                </div>
+            </a>
+
+
+        </div>
+        <div class="life-content-box">
+            <a href="">
+                <div class="b-left">
+                    <img src="  images/shzx4.jpg" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="b-right">
+                    <span class="b-right-tit">有种家电叫“单身家电”！</span>
+                    <p>
+                        <span>海尔电脑</span><i>|</i>
+                        <span>家用迷你投影仪</span><i>|</i>
+                        <span>迷你电饭煲</span>
+                    </p>
+                </div>
+            </a>
+
+
+        </div>
+        <div class="life-content-box">
+            <a href="">
+                <div class="b-left">
+                    <img src="  images/shzx2.jpg" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="b-right">
+                    <span class="b-right-tit">连扔垃圾都变这么难，去哪里寻找简单的幸福？</span>
+                    <p>
+                        <span>海尔洗衣机</span><i>|</i>
+                        <span>衣物护理</span><i>|</i>
+                        <span>垃圾分类</span>
+                    </p>
+                </div>
+            </a>
+
+
+        </div>
+        <div class="life-content-box">
+            <a href="">
+                <div class="b-left">
+                    <img src="  images/shzx1.jpg" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="b-right">
+                    <span class="b-right-tit">扫地机器人小科普 | 吸力越大扫得越干净吗？</span>
+                    <p>
+                        <span>海尔扫地机</span><i>|</i>
+                        <span>清洁系统</span><i>|</i>
+                        <span>呼吸健康</span>
+                    </p>
+                </div>
+            </a>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+    <!-- 了解智家 -->
+    <div class="realizeSH w">
+        <h2>了解智家 <span class="zhjd">更多智家视频</span></h2>
+        <div class="videoSection">
+            <div class="video-box">
+                <img src="  images/videopre.jpg" alt="">
+                <p>海尔全球品牌峰会 <span>2:33:37</span></p>
+            </div>
+            <div class="video-box">
+                <img src="  images/ljzj2.jpg" alt="">
+                <p>你好智慧家 <span>50:00</span></p>
+            </div>
+            <div class="video-box">
+                <img src="  images/ljzj3.jpg" alt="">
+                <p>智慧家庭4.0时代 <span>04:57</span></p>
+            </div>
+            <div class="video-box">
+                <img src="  images/ljzj4.jpg" alt="">
+                <p>智慧改变新时代 <span>01:44</span></p>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 尾部开始 -->
+    <footer>
+        <div class="bottombox">
+            <div class="bottom-con">
+                <div class="bottom-l">
+                    <ul class="l-ul">
+                        <li>
+                            <h4>冰箱 &nbsp;冷柜</h4>
+                            <ul class="bottomL-son">
+                                <li>单门冰箱</li>
+                                <li>两门冰箱</li>
+                                <li>三门冰箱</li>
+                                <li>对开门冰箱</li>
+                                <li>多门冰箱</li>
+                                <li>十字对开门冰箱</li>
+                                <li>立式冰箱</li>
+                                <li>卧式冰箱</li>
+                                <li>展示柜</li>
+                            </ul>
+
+                            <h4>冰吧酒柜</h4>
+                            <ul class="bottomL-son">
+                                <li>冰吧</li>
+                                <li>酒柜</li>
+                            </ul>
+                            <h4>洗衣机</h4>
+                            <ul class="bottomL-son">
+                                <li>滚筒洗衣机</li>
+                                <li>波轮洗衣机</li>
+                                <li>干衣机</li>
+                                <li>洗鞋机</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>空调</h4>
+                            <ul class="bottomL-son">
+                                <li>壁挂式空调</li>
+                                <li>柜式空调</li>
+                                <li>家用中央空调</li>
+                                <li>除湿机</li>
+                                <li>移动空调</li>
+                            </ul>
+                            <h4>热水器</h4>
+                            <ul class="bottomL-son">
+                                <li>电热水器</li>
+                                <li>燃气热水器</li>
+                                <li>太阳能热水器</li>
+                                <li>采暖炉</li>
+                                <li>空气能热水器</li>
+                                <li>厨宝</li>
+                            </ul>
+                            <h4>电视</h4>
+                            <ul class="bottomL-son">
+                                <li>曲面电视</li>
+                                <li>4K高清电视</li>
+                                <li>智能电视</li>
+                                <li>蓝光电视</li>
+                                <li>激光电视</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>厨房电器</h4>
+                            <ul class="bottomL-son">
+                                <li>吸油烟机</li>
+                                <li>燃气灶</li>
+                                <li>电烤箱</li>
+                                <li>洗碗机</li>
+                                <li>消毒柜</li>
+                                <li>空气炸锅</li>
+                                <li>蒸箱</li>
+                                <li>集成灶</li>
+                            </ul>
+                            <h4>电脑</h4>
+                            <ul class="bottomL-son">
+                                <li>笔记本电脑</li>
+                                <li>台式电脑</li>
+                                <li>平板电脑</li>
+                                <li>一体电脑</li>
+                                <li>网络设备及外设</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>小家电</h4>
+                            <ul class="bottomL-son">
+                                <li>厨房小家电</li>
+                                <li>生活小家电</li>
+                                <li>个护小家电</li>
+                                <li>母婴小家电</li>
+                            </ul>
+                            <h4>智慧家电</h4>
+                            <ul class="bottomL-son">
+                                <li>空气净化器</li>
+                                <li>空气魔方</li>
+                                <li>车载净化器</li>
+                                <li>新风机</li>
+                                <li>扫地机器人</li>
+                                <li>智能洁身器</li>
+                                <li>魔镜</li>
+                                <li>智慧音箱</li>
+                                <li>冰箱</li>
+                                <li>空调</li>
+                                <li>电烤箱</li>
+                                <li>洗衣机</li>
+                                <li>热水器</li>
+                                <li>智控器</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-r">
+                    <ul class="r-ul">
+                        <li>
+                            <h4>家庭医疗</h4>
+                            <ul class="bottomR-son">
+                                <li>制氧机</li>
+                                <li>雾化器</li>
+                                <li>血压计</li>
+                            </ul>
+                            <h4>定制产品</h4>
+                            <ul class="bottomR-son">
+                                <li>定制家电</li>
+                                <li>集成家居</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>商业解决方案</h4>
+                            <ul class="bottomR-son">
+                                <li>中央空调</li>
+                                <li>商用冷柜</li>
+                                <li>商用洗涤</li>
+                                <li>商用电视</li>
+                                <li>商用电脑</li>
+                                <li>U-home</li>
+                                <li>商用净水设备</li>
+                                <li>商用热泵</li>
+                                <li>海尔地产</li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <h4>服务</h4>
+                            <ul class="bottomR-son">
+                                <li>认证产品</li>
+                                <li>预约安装</li>
+                                <li>在线报修</li>
+                                <li>特色服务</li>
+                                <li>服务政策</li>
+                                <li>服务状态查询</li>
+                                <li>海尔服务店</li>
+                                <li>海尔门店</li>
+                                <li>智慧体验店</li>
+                                <li>应用中心</li>
+                                <li>帮助中心</li>
+                            </ul>
+                        </li>
+
+                        <li class="bottomR-over">
+                            <i class="minilogo"></i>
+                            <span>全球</span>
+                            <p class="china">
+                                <span>国家</span>
+                                <span>中国</span>
+                            </p>
+                            <img src="  images/qrcode.png" alt="">
+                            <p class="over">扫码关注海尔家电</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 尾部结束 -->
+
+    <!-- copyright开始 -->
+
+    <div class="copyright">
+        <div class="copyright-con">
+            <a href="javascript:;">关于海尔</a> |
+            <a href="javascript:;">联系我们</a> |
+            <a href="javascript:;">法律声明</a> |
+            <a href="javascript:;">帮助中心</a> |
+            <a href="javascript:;">海尔门店</a>
+            <ul class="footer-l">
+                <li>鲁ICP备09096283 &nbsp;&nbsp;&nbsp;&nbsp;|</li>
+                <li> &nbsp;&nbsp;&nbsp;&nbsp;Copyright ©2015 海尔集团 版权所有</li>
+            </ul>
+        </div>
+    </div>
+    <!-- copyright结束 -->
+    <!-- 回到顶部 -->
+    <div class="backTop" id="top">
+        <img src="  images/haier2018_top.png" alt="">
+
+    </div>
+
+
+</body>
+
+</html>

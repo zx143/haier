@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+i {
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('woff2'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+
+/* footer {
+
+} */
+
+footer {
+    margin-top: 100px;
+}
+
+.bottombox {
+    padding: 40px 0;
+    background-color: #525455;
+    overflow: hidden;
+}
+
+.bottom-con {
+    width: 1236px;
+    margin: 0 auto;
+}
+
+.bottom-l {
+    float: left;
+    width: 50%;
+}
+
+.bottom-r {
+    float: right;
+    width: 50%;
+}
+
+.bottom-l .l-ul li,
+.bottom-r .r-ul li {
+    float: left;
+    width: 154px;
+    /* margin-right: 30px; */
+}
+
+
+/* .bottom-r .r-ul li {} */
+
+.l-ul li h4,
+.r-ul li h4 {
+    height: 24px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 24px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.bottomL-son,
+.bottomR-son {
+    /* padding: 5px 0; */
+    overflow: hidden;
+}
+
+.bottomL-son li,
+.bottomR-son li {
+    font-size: 12px;
+    padding: 3px 0;
+    color: #999;
+    cursor: pointer;
+}
+
+.bottomL-son li:hover,
+.bottomR-son li:hover {
+    color: #fff;
+}
+
+.bottomR-over i {
+    display: inline-block;
+    width: 45px;
+    height: 15px;
+    background: url(../images/hn_ico.png) no-repeat;
+    background-position: 0 -179px;
+}
+
+.bottomR-over span {
+    font-size: 14px;
+    color: #fff;
+}
+
+.bottomR-over .china span:first-child {
+    /* color: red; */
+    font-size: 12px;
+}
+
+.bottomR-over .china span:last-child {
+    color: #32BEFF;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.bottomR-over>img {
+    margin-top: 25px;
+}
+
+.bottomR-over .over {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.copyright {
+    padding: 20px 0;
+    background-color: #2B2C2D;
+}
+
+.copyright-con {
+    width: 1236px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #515252;
+    line-height: 10px;
+}
+
+.footer-l {
+    float: right;
+}
+
+.footer-l li {
+    float: left;
+}
+
+.copyright-con a {
+    padding: 0 5px;
+}
+
+.copyright-con a:hover {
+    color: #32BEFF;
+}

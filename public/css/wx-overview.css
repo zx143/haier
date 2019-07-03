@@ -1,0 +1,303 @@
+.wx-main {
+    position: relative;
+    width: 100%;
+    height: 477px;
+}
+
+.wx-mainL {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wx-main .wx-mainL img {
+    cursor: pointer;
+    width: 100%;
+}
+
+.wx-mainR {
+    position: absolute;
+    background-color: rgb(23, 124, 174);
+    right: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.mainR-tit {
+    padding: 10% 10%;
+    color: #fff;
+}
+
+.mainR-tit h2 {
+    font-size: 48px;
+    font-weight: 400;
+    width: 290px;
+    margin-bottom: 5px;
+}
+
+.mainR-tit h4 {
+    font-size: 26px;
+    font-weight: 400;
+    width: 290px;
+    opacity: .6;
+}
+
+.mainR-ul {
+    padding: 18px 0;
+}
+
+.mainR-ul li {
+    font-size: 14px;
+}
+
+.mainR-btn {
+    font-size: 14px;
+    display: block;
+    width: 176px;
+    height: 42px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 42px;
+    margin-left: 41px;
+    background-color: rgba(255, 255, 255, 0.0);
+    transition: all 1.5s;
+}
+
+.mainR-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* main结束 */
+
+
+.wx-listCol {
+    padding: 30px;
+    border-bottom: 1px solid #ececec;
+}
+
+.list-col {
+    width: 1236px;
+    margin: 0 auto;
+}
+
+.list-col h2 {
+    font-size: 18px;
+    color: #333;
+    font-weight: 400;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+}
+
+.list-col h2 .list-col-seach {
+    float: right;
+}
+
+.list-col-seach .seach-case {
+    width: 300px;
+    border: 1px solid #e5e5e5;
+    padding: 0 10px;
+    color: #999;
+    font-size: 14px;
+    height: 38px;
+    vertical-align: middle;
+}
+
+.list-col-seach .seach-btn {
+    width: 100px;
+    background-color: #32beff;
+    color: #fff;
+    border: 1px solid #32beff;
+    height: 38px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-left: -5px;
+    vertical-align: middle;
+}
+
+
+.list-col-main {
+    width: 1100px;
+    height: 145px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.list-col-main ul {
+    width: 100%;
+}
+
+.list-col-main ul li {
+    float: left;
+    width: 12.5%;
+    height: 122px;
+    text-align: center;
+
+}
+
+.list-col-main ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.list-col-main ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    transition: all .5s;
+}
+
+.list-col-main ul li a img:hover {
+    transform: scale(.8);
+}
+
+.list-col-main ul li a span {
+    display: block;
+    color: #666;
+    font-size: 13px;
+}
+
+/* 服务模块开始 */
+.wx-serve {
+    width: 1236px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.wx-serve h2,
+.wx-feature h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.wx-serve ul {
+    border-right: 1px solid #f2f2f2;
+    border-bottom: 1px solid #f2f2f2;
+    overflow: hidden;
+}
+
+.wx-serve ul li {
+    display: block;
+    float: left;
+    width: 24.9%;
+    border-left: 1px solid #f2f2f2;
+    border-top: 1px solid #f2f2f2;
+    text-align: center;
+}
+
+.wx-serve ul li a {
+    display: block;
+    padding: 38px 0;
+}
+
+.wx-serve ul li a i {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    /* display: inline-block; */
+    background: url(../images/s_ico64.png) no-repeat;
+}
+
+.wx-serve ul li a span {
+    display: block;
+    margin: 10px 0;
+}
+
+/* 特色服务开始 */
+.wx-feature {
+    width: 1236px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.fea-ul {
+    overflow: hidden;
+}
+
+.fea-ul li {
+    float: left;
+    width: 393px;
+    border: 1px solid #e5e5e5;
+    padding: 25px 0;
+}
+
+.fea-ul li:nth-child(2) {
+    margin: 0 23px;
+}
+
+.fea-ul li h2 {
+    padding: 0 20px;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.fea-ul li p {
+    padding: 0 20px;
+    font-size: 14px;
+    color: #666;
+    overflow: hidden;
+    width: 250px;
+}
+
+.fea-ul li a {
+    display: inline-block;
+    margin: 15px 20px 0;
+    color: #32beff;
+    font-size: 14px;
+    margin-right: 15px;
+}
+
+
+/* 热线模块 */
+.wx-hotline {
+    height: 400px;
+    position: relative;
+    width: 100%;
+    background: url(../images/s_bg1.jpg) no-repeat;
+    overflow: hidden;
+    background-position: -330px 0;
+}
+
+.hotlineerwei {
+    position: absolute;
+    left: 95px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.hotlineerweima {
+    position: absolute;
+    left: 285px;
+    top: 100px;
+    cursor: pointer;
+}
+
+.service-tel {
+    position: absolute;
+    top: 120px;
+    left: 540px;
+}
+
+.service-tel h4 {
+    font-size: 15px;
+    color: #666;
+    line-height: 28px;
+    padding-top: 5px;
+    font-weight: 400;
+}
+
+.service-tel p {
+    font-size: 32px;
+    color: #005aab;
+    font-style: italic;
+    line-height: 32px;
+}
