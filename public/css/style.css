@@ -1,0 +1,504 @@
+*{
+  margin: 0 0;
+    padding: 0 0;
+    font-family: DeliciousRoman , arial, Microsoft Yahei, \5b8b\4f53, sans-serif !important;
+    text-decoration: none;
+    font-weight: normal;
+    font-style: normal;
+    word-break: break-all;
+}
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  font-family: Microsoft YaHei;
+  color: #666;
+  font-size: 10px;
+}
+input{
+  margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei;
+    color: #666;
+    font-size: 10px;
+    box-sizing: content-box;
+    line-height: normal;
+}
+header{
+    height: 15px;
+    width: 1236px;
+    margin: 0 auto;
+    background-color:#fff;
+  }
+  .lbox{
+   
+    height: 60px;
+      width: 618px;
+     float: left;
+  
+  }
+  .lbox span{
+    font-size: 16px;
+    color: #333;
+    line-height: 60px;
+    margin-left: 18px;
+   
+  }
+  .llogin{
+    width: 73px;
+    height: 23px;
+    background: url(../images/login_icon_1010.gif) no-repeat -39px -61px;
+    display: inline-block;
+    width: 71px;
+    height: 21px;
+    vertical-align: text-bottom;
+    
+  
+  }  
+  .jian{
+    float: right;
+    line-height: 60px;
+  }
+  
+  /* end 头 */
+  .backg_color{
+    background-color: #ececec;
+    width: 100%;
+    height: 700px;
+ 
+  }
+   
+  .lbackground_c{
+    width: 1236px;
+    margin: 0 auto;
+  }
+  .lvipusere_tit{
+    height: 150px;
+    width: 100%;
+    display: block;
+  
+
+  }
+  .lvipuser_main{
+    width: 840px;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: block;
+  }
+  .lvipuser_tt{
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    line-height: 150px;
+    display: block;
+  }
+  .clear{
+    clear: both;
+    height: 0;
+    overflow: hidden;
+  }
+.lvipuser_main_1{
+  display: block;
+    width: 840px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.lpure_u_1{
+  width: 100%;
+}
+.lvipuser_box_2{
+  display: block;
+    height: 380px;
+    margin-left: 177px;
+    padding-top: 46px;
+}
+.lvipuser_box_3{
+  width: 430px;
+    float: left;
+}
+.lvipuser_third_p_1_1{
+  height: 55px;
+    position: relative;
+}
+.lvipuser_third_p_1_1 span{
+  margin-right: 20px;
+    font-size: 14px;
+    margin-left: -14px;
+    float: left;
+    line-height: 40px;
+
+  }
+  .lvipuser_third_name1{
+    position: relative;
+    font-size: 14px;
+    width: 344px;
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    outline: 0;
+    padding: 3px 3px 3px 11px;
+  }
+  .graytext{
+    border: 1px solid #d6dbdd;
+  }
+  .lvipuser_third_name1_label{
+    display: block;
+    position: absolute;
+    margin-left: 74px;
+    top: 0;
+    
+    line-height: 40px;
+    font-size: 14px;
+    color: #999;
+  }
+  .lvipuser_box_mima_1{
+    height: 55px;
+    position: relative;
+    display: inline-block;
+  }
+  .lvipuser_box_mima_1 span{
+    margin-right: 17px;
+    margin-left: 17px;
+    font-size: 14px;
+    float: left;
+    line-height: 40px;
+  }
+  .lvipuser_third_pswd3{
+    position: relative;
+    font-size: 14px;
+    width: 344px;
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    outline: 0;
+    padding: 3px 3px 3px 11px;
+  }
+  .lvipuser_third_pswd4{
+    position: relative;
+    font-size: 14px;
+    width: 344px;
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    outline: 0;
+    padding: 3px 3px 3px 11px;
+  }
+  .showPassword{
+    display: block;
+    width: 50px;
+    height: 24px;
+    border-radius: 12px;
+    background: #005aab;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    float: right;
+    margin-top: -32px;
+    position: relative;
+    margin-right: 20px;
+  }
+ .suv{
+  content: "";
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #e9e9e9;
+  margin-top: -28px;
+  margin-left: 25px;
+  top: 25px;
+ }
+ .lvipuser_third_pswd1_label_2{
+  display: block;
+  position: absolute;
+  margin-left: -285px;
+  top: 0;
+  line-height: 25px;
+  font-size: 14px;
+  color: #999;
+ }
+  /* 滑动 */
+  .touchcode{
+    height: 40px;
+      margin-bottom: 15px;
+      font-size: 0;
+      position: relative;
+      z-index: 1;
+  }
+  .touchcode .touchbox{
+    height: 38px;
+      border: 1px solid #d6dbdd;
+      position: relative;
+      display: inline-block;
+      width: 358px;
+      line-height: 38px;
+      background: #f6f6f6;
+  }
+  .touchcode .touchbox .door{
+    width: 38px;
+      height: 38px;
+      border-left: 1px solid #d6dbdd;
+      border-right: 1px solid #d6dbdd;
+      position: absolute;
+      top: 0;
+      left: -1px;
+      background: url(../images/login_icon_1010.gif) #fff no-repeat -73px -153px;
+      display: block;
+      z-index: 5;
+      cursor: move;
+  }
+  .touchcode .touchbox .prompttext{
+    text-align: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: #59caff;
+      z-index: 0;
+  }
+  .touchcode .touchbox .bg{
+    background: #4c0;
+      width: 10px;
+      height: 38px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 3;
+      overflow: hidden;
+      font-size: 14px;
+  }
+  .touchcode .touchbox .bg span{
+    width: 360px;
+      color: #fff;
+      text-align: center;
+      display: block;
+      position: relative;
+      font-size: 14px;
+  }
+  .touchcode .touchbox .overtext{
+    position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      font-size: 14px;
+      background: #005aab;
+      padding: 0 10px;
+      box-sizing: border-box;
+      z-index: 4
+  }
+  .touchcode .touchbox .imglock{
+    border: 1px solid #ccd0d1;
+      padding: 15px;
+      position: absolute;
+      top: 42px;
+      left: -1px;
+      background: #fff;
+      width: 360px;
+      display: none;
+      box-sizing: border-box;
+  }
+  .touchcode .touchbox .imglock .imgbox{
+    position: relative;
+  }
+  img{
+    display: inline-block;
+  }
+  .touchbox .imglock .btn{
+    width: 30px;
+      height: 30px;
+      background: url(../images/login_icon_1010.gif) 0 -340px no-repeat;
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      cursor: pointer;
+      display: bloc
+  }
+  .touchcode .name{
+    line-height: 40px;
+    display: inline-block;
+    width: 43px;
+    text-align: right;
+    margin-right: 20px;
+    vertical-align: top;
+    font-size: 14px;
+    
+  }
+  span{
+    color: #666;
+  }
+  /* end 滑动 */
+   
+
+  /* 激活 */
+  .lvipzhmm_duanxinyzm{
+      margin-top:15px ;
+  }
+  .lvipzhmm_duanxinyzm .yzm{
+    float: left;
+    line-height: 40px;
+    margin-right: 20px;
+   
+    font-size: 14px;
+  }
+  .lvipzhmm_yzm_1 {
+    height: 40px;
+    padding-bottom: 15px;
+    display: block;
+   
+    
+  }
+  .lvipzhmm_yzm_1_wf{
+    position: relative;
+  }
+  .lvipzhmm_yzm_jr{
+    float: left;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+  }
+  .lvipzhmm_shuruyzm_input_a1_1{
+    position: relative;
+    font-size: 14px;
+    width: 154px;
+    height: 32px;
+    line-height: 32px;
+    color: #999;
+    outline: 0;
+    padding: 3px 3px 3px 11px;
+ 
+  }
+  .lvipuser_third_yzm_label_4{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: left;
+    color: #999;
+  }
+  .lvipzhmm_yzm_1 li{
+    float: left;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+  }
+  .lvipzhmm_yzmsend_3{
+    left: 20px;
+    background-color: #f6f6f6;
+    color: #999;
+    width: 170px;
+    height: 40px;
+    display: none;
+    cursor: default;
+  }
+  .lvipzhmm_yzmsend_1{
+    color: #999;
+    margin-left:40px; 
+  }
+  .lvipzhmm_yzmsend_3 span{
+    color: #005aaa;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+  .mail_invite{
+    width: 344px;
+  }
+  .lvipzhmm_duanxinyzm_2{
+    margin-top:15px ;
+  }                                  
+  .ljc{
+    margin-top:0px ;
+  }
+  .lvipuser_third_bt50{
+    display: block;
+    margin: 0 63px;
+    text-align: center;
+    width: 360px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+  .bukdbt{
+    background-color: #c6cacb;
+  }
+  .lvipuser_zhuce_fuwutiaok{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 18px;
+  }
+  .icon_a4{
+    margin-bottom: 20px;
+    height: 24px;
+    text-indent: 35px;
+    line-height: 24px;
+    font-size: 14px;
+    position: relative;
+  }
+  .icon_a4 i{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/login_icon_1010.gif) no-repeat 0 -282px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .icon_a4_blue{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/login_icon_1010.gif) no-repeat 0 -306px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .buttom{
+    height: 139px;
+  }
+  .lvipuser_zhuce_buttom_fuw{
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  footer .bottombar{
+    background: #2b2c2d;
+      padding: 20px 0;
+      color: #515252;
+      width: 100%;
+    
+  }
+  .content{
+    width: 1236px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 0;
+  }
+  footer a{
+    font-size: 12px;
+  }
+  .right{
+    float:right;
+  }
+  footer .bottombar span {
+    color: #999;
+    font-size: 12px;
+  }
+  .content a:hover{
+    color: #3aebff;
+  }

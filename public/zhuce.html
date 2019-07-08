@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../注册页面/js/zheuce.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon">
+
+<body>
+    <!-- 头 -->
+    <header>
+        <div class="lbox">
+            <a href="" class="llogin"></a>
+            <span>账号注册</span>
+
+        </div>
+        <div class="lhead">
+            <span style="padding-left:20px;margin-left:20px;" class="jian">
+
+
+                <i style="top:-3px;position:relative;margin:2px;"> 我已注册, <a href="./dl_index.html" id="viplogina"
+                        style="color: #32beff;font-size:16px">直接登陆</a>
+            </span>
+        </div>
+    </header>
+    <!-- -头 -->
+
+
+
+    <div class="backg_color">
+        <div class="lbackground_c">
+            <div class="lvipusere_tit">
+                <div class="lvipuser_main js_tit">
+                    <p class="lvipuser_tt">一个账号便利享受Haier所有服务</p>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <!--注册邮箱模块1-->
+        <div class="lvipuser_main_1">
+            <div class="lpure_u_1"></div>
+            <!-- star 手机注册模块 -->
+            <!-- 手机号码 -->
+            <div class="lvipuser_box_2">
+                <div class="lvipuser_box_3">
+                    <form action="" id="frmMobile">
+                        <div class="lvipuser_third_p_1_1">
+                            <span>手机号码</span>
+                            <input type="text" value="" class="lvipuser_third_name1 graytext" id="vipuser_third_no1_ph"
+                                onkeyup="noSpaceFun('vipuser_third_no1_ph',event)" maxlength="11" name="mobile">
+                            <label for="vipuser_third_no1_ph" class="lvipuser_third_name1_label js_label_name"
+                                id="mPrompt">购买，安装，报修，手机注册更方便</label>
+                        </div>
+                        <!-- 密码 -->
+                        <div class="lvipuser_box_mima_1">
+                            <span>密码</span>
+                            <input type="password" class="lvipuser_third_pswd3 graytext js_vipuser_em_pswd1"
+                                id="vipuser_pswd1_ph" name="password" value="" maxlength="16">
+                            <input type="password" class="lvipuser_third_pswd4 graytext js_vipuser_em_pswd2"
+                                id="vipuser_pswd1_ph_text" name="password" maxlength="16" style="display: none;">
+                            <input type="hidden" id="pwd_ph" name="newpwd">
+                            <a href="javascript:;" class="showPassword" style="background: rgb(0, 90, 171);"
+                                id="mobilePwdChange">
+                                <i class="loginTT"
+                                    style="color: rgb(255, 255, 255); position: absolute; left: 6px; font-size: 12px">abc</i>
+                                <i style="position: absolute; top: 2px;left: 30px; font-size: 12px;">***</i>
+                                <span class="suv" style="margin-left: 25px;"></span>
+                                <label for="vipuser_pswd1_ph" class="lvipuser_third_pswd1_label_2 js_label_pswd"
+                                    id="mPwdLbl" style="display: block;">6-16位，数字，字母或符号组合</label>
+                            </a>
+                        </div>
+
+                    </form>
+                    <!-- 滑动 验证-->
+                    <div class="touchcode">
+                        <span class="name">验证</span>
+                        <div class="touchbox" id="randow_code_login">
+                            <span class="door js_door" id="dynamic_js_door"></span>
+                            <p class="prompttext"><span style="font-size: 14px;color: #666;">请按住滑块，拖到最右边</span></p>
+                            <span class="bg js_touchcode_bg" id="dynamic_js_touchcode_bg" style="width:0px;">
+                                <span>请按住滑块，拖到最右边</span>
+                                <p class="overtext js_imglocktit" id="dynamic_js_imglocktit" style="display: none;">
+                                    请点击图片中的
+                                    “会” 字</p>
+                                <div class="imglock js_imglock" id="dynamic_js_imglock" style="display: none;">
+                                    <div class="imgbox js_imglock_box" style="width: 200px;height: 200px">
+
+                                        <img src="../登录页面/images/r_imglock.jpg\" style="width: 100%;height: 100%;">
+                                    </div>
+                                    <i class="btn js_imglock_resetting"></i>
+                                </div>
+                            </span>
+                        </div>
+                        <!-- end 滑动 验证-->
+                        <!-- 激活码 -->
+                        <div class="lvipzhmm_duanxinyzm" style="display: block">
+                            <span class="yzm">激活码</span>
+
+                            <ul class="lvipzhmm_yzm_1 lvipzhmm_yzm_1_wf">
+                                <li class="lvipzhmm_yzm_jr">
+                                    <input type="text" class="lvipzhmm_shuruyzm_input_a1_1 graytext" id="zhuce_yzm" 1
+                                        name="mobileVerifyCode" maxlength="6" onkeyup="noSpaceFun('zhuce_yzm',event)"
+                                        value="">
+                                    <label for="zhuce_yzm" class="lvipuser_third_yzm_label_4 js_label_yzm_dx"
+                                        id="mVfyCode">短信验证码</label>
+                                </li>
+
+                                <li class="lvipzhmm_yzmsend_3" id="reSendCode" style="display:none">
+                                    <span>49</span>秒后重新发送
+                                </li>
+                                <!--发送验证码到手机-->
+                                <li class="vipzhmm_yzmsend_2" id="sendCode" style="display:none;cursor: pointer">
+                                    发送验证码到手机
+                                </li>
+
+                                <li class="lvipzhmm_yzmsend_1" style="display:block">发送验证码到手机</li>
+
+                            </ul>
+                        </div>
+                        <!-- end 激活码 -->
+
+                        <!-- 邀请人 -->
+                        <div class="lvipzhmm_duanxinyzm copy ljc">
+                            <span class="yzm">邀请人</span>
+                            <ul class="lvipzhmm_yzm_1 vipzhmm_yzm_1_wf">
+                                <li class="lsvipzhmm_yzm_jr">
+
+                                    <input type="text" id="vipuser_invite" maxlength="20" value=""
+                                        class="lvipzhmm_shuruyzm_input_a1_1 graytext mail_invite">
+
+
+
+                                    <label for="vipuser_invite" class="lvipuser_third_yzm_label_4 copy"
+                                        id="vipuser_invite_label">登录名/手机号/邀请码</label>
+
+                                </li>
+
+                                <!--忘记密码弹层-->
+
+
+                                <!--END忘记密码弹层-->
+                            </ul>
+                            <!--收不到短信？-->
+                            <div class="clear"></div>
+                            <p id="regBtnHid" class="lvipuser_third_bt50 gray_btbgcol bukdbt">注册</p>
+                            <p class="lvipuser_zhuce_fuwutiaok vipuser_denglu_icon icon_a4" id="auto_login_privacy">
+                                <i
+                                    style="position:static;display:inline-block;vertical-align:middle;cursor:pointer;margin-right: 10px;"></i>我同意
+                                <a href="https://www.haier.com/cn/RegServiceTerms/" target="_blank"><span
+                                        style="color: #32beff">《海尔注册用户服务条款》</span></a>
+                                <a href="http://account.haier.com/html/privacypolicy.html" target="_blank"><span
+                                        style="color: #32beff">《法律声明及隐私权政策》</span></a>
+                            </p>
+                        </div>
+                        <!-- end  -->
+                        <div class="buttom">
+                            <div class="vipuser_zhuce_buttom_fuw">Haier账号支持所有产品和服务</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="buttom">
+            <div class="lvipuser_zhuce_buttom_fuw">Haier账号支持所有产品和服务</div>
+        </div>
+        <!-- 底部 -->
+        <footer>
+            <div class="bottombar">
+                <div class="content" data-trs-ta-event-key="aditem" data-trs-ta-event-type="adshow"
+                    data-trs-ta-event-itemtype="公用底部_专卖店">
+                    <a href="//www.haier.com/cn/about_haier/">关于海尔</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <!--<a href="">新闻中心</a> &nbsp;&nbsp;|&nbsp;&nbsp;-->
+                    <a href="//www.haier.com/contact/">联系我们</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="//www.haier.com/cn/terms_conditions/">法律声明</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="//www.haier.com/help/">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                    <a href="//www.haier.com/store.shtml" target="_blank" data-trs-ta-event-key="aditem"
+                        data-trs-ta-event-type="adshow" data-trs-ta-event-itemtype="公用底部_专卖店"
+                        data-trs-ta-event-item="公用底部_专卖店" data-trs-ta-event-itemname="公用底部_专卖店">海尔门店</a>
+                    <!--<a href="">站点地图</a> -->
+                    <div class="right">
+                        <span>鲁ICP备09096283</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span>Copyright ©2015 海尔集团 版权所有</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+
+</html>

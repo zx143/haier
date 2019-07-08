@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>账号登录|海尔官网|你的生活智慧,我的智慧生活</title>
+    <script src="../登录页面/js/dl_index.js"></script>
+    <link rel="stylesheet" href="css/dl_index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="images/x-icon">
+</head>
+
+<body>
+    <!-- 头 -->
+    <header>
+        <div class="lbox">
+            <a href="" class="llogin"></a>
+            <span>账号登录</span>
+
+        </div>
+        <div class="lhead">
+            <a href="./zhuce.html">
+                <span>注册海尔号</span>
+            </a>
+            <span style="padding-left:20px;margin-left:20px;border-left:1px solid #e5e5e5;" class="jian">
+                <a href="#" id="viplogina" style="font-size:14px;">梦享
+                    <i style="top:-3px;position:relative;margin:2px;">+</i>会员首次激活登录</a>
+            </span>
+        </div>
+    </header>
+    <!-- -头 -->
+    <!-- 背景模块-->
+    <div class="lheadr">
+        <!-- 第一个普通模块 -->
+        <div class="lbox1" style="display: block">
+            <div class="ltop1">登录海尔账号</div>
+            <div class="ltop2">
+                <ul class='lmain'>
+                    <a href="">
+                        <li class="left ">
+                            <i class="login_pcIcon cur"></i>
+                            普通登录
+                        </li>
+                    </a>
+                    <a>
+                        <li class="licon_a2 " id="dancer1"><i class="llogin_mbIcon"></i>
+                            <p>使用手机</p>动态密码登录
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="licon_a3 " id="dancer2"></li>
+                    </a>
+                </ul>
+
+
+                <form action="">
+                    <div class="lp1">
+                        <input type="text" class="lgraytext" id="ldenglu" maxlength="26" autocomplete="off"
+                            value="手机号 / 验证邮箱 / 用户名">
+                        <!-- 第一个错误弹出层 -->
+                        <div class="lvipuser" id="js-ipttc01" style="display: none">
+                            <div class="lvipuser_dl">
+                                <i class="  "></i>
+                                <span id="showErrorMsg1"></span>
+                            </div>
+                            <div class="lpoint"><i class="lrightArrow"></i></div>
+                        </div>
+                        <!-- end弹出层 -->
+
+                        <!-- 正确及错误提示 -->
+                        <label for="denglu_name_no1" class="lvipuser_label js_label_name gray"
+                            id="normal_username_label" style="display: block;">
+                            <!-- 手机号 / 验证邮箱 / 用户名 -->
+                        </label>
+                        <span class="lvipuser_icon_2-1"></span>
+                    </div>
+
+                    <div class="lvipuser_p_2">
+
+                        <!--第二个错误弹出层-->
+                        <div class="lvipuser_p_3">
+                            <div class="livipuser_p_4">
+                                <i class="lvipuser_img"></i>
+                                <span id="showErrorMsg2"></span>
+                            </div>
+                            <div class="lpoint"><i class="lrightArrow"></i></div>
+                        </div>
+                        <!-- end弹出层 -->
+                        <input type="password" class="lgraytext" id="denglu_passwd_no1" maxlength="26" autofocus=""
+                            value="登录密码">
+                        <span class="lvipuser_icon_2-2 "></span>
+                        <a href="/ids/cn/forget_password.jsp?regFrom=haier2&amp;returnUrl=">
+                            <span class="licon_2-3 js_icon_2-5">
+                                <span class="ltanc1" style="display:none;">忘记密码 </span>
+                            </span>
+                        </a>
+                        <!-- 正确及错误提示 -->
+                        <label for="denglu_passwd_no1" class="lvipuser_label topo js_label_pswd gray"
+                            id="normal_pwd_label" style="display: block;"></label>
+                    </div>
+
+                </form>
+                <a href="">
+                    <p class="licon_a4_blue licon_a5_blue" id="auto_login_privacy"
+                        style="white-space:nowrap;cursor:point;">
+                        <i></i> 我同意
+                        <a href="http://www.haier.com/cn/RegServiceTerms/" target="_blank"><span
+                                style="color: #32beff;font-size:10px">《海尔注册用户服务条款》</span></a>
+                        <a href="http://account.haier.com/html/privacypolicy.html" target="_blank"><span
+                                style="color: #32beff;font-size:10px">《法律声明及隐私权政策》</span></a>
+                    </p>
+                </a>
+                <a href="">
+                    <p class="licon_a4_blue licon_a5_blue" id="auto_login_privacy"
+                        style="white-space:nowrap;cursor:point;">
+                        <i></i> 两周内免登录
+                </a>
+                <p class="lvipuser_lbukdbt" id="normal_login_btn" style="background-color:#32beff">登录</p>
+                <p class="banrwz">
+                    微信 微博 网易 人人网 开心网
+                </p>
+            </div>
+        </div>
+
+
+        <!-- 第二个模块手机登录 -->
+        <div class="lmain_box-2 lmain_box-j" style="display: none">
+            <div class="ltop1" style="color: rgb(51, 51, 51);">手机登录海尔账号</div>
+            <div class="clear"></div>
+            <div class="ltop2">
+                <ul class='lmain'>
+                    <a href="">
+                        <li class="left" style="color: #999">
+                            <i class="login_pcIcon cur lright"></i>
+                            普通登录
+                        </li>
+                    </a>
+                    <a>
+                        <li class="licon_a2" style="color:#005AAA">
+                            <i class="llogin_mbIcon llogin_j"></i>
+                            <p>使用手机</p>动态密码登录
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="licon_a3"></li>
+                    </a>
+                </ul>
+                <div class="clear"></div>
+                <div class="lp1">
+                    <input type="text" class="lgraytext" id="ldenglu" maxlength="26" autocomplete="off" value="手机号">
+                </div>
+                <label for="denglu_name_no1" class="lvipuser_label js_label_name gray" id="normal_username_label"
+                    style="display: block;">
+                </label>
+                <span class="lvipuser_icon_2-1"></span>
+                <!-- 滑动验证码 新验证码码 -->
+                <div class="touchcode">
+                    <div class="touchbox" id="randow_code_login" style="display: none">
+                        <span class="door js_door" id="dynamic_js_door"></span>
+                        <p class="prompttext"><span style="font-size: 14px;color: #666;">请按住滑块，拖到最右边</span></p>
+                        <span class="bg js_touchcode_bg" id="dynamic_js_touchcode_bg" style="width:0px;">
+                            <span>请按住滑块，拖到最右边</span>
+                            <p class="overtext js_imglocktit" id="dynamic_js_imglocktit" style="display: none;">请点击图片中的
+                                “会” 字</p>
+                            <div class="imglock js_imglock" id="dynamic_js_imglock" style="display: none;">
+                                <div class="imgbox js_imglock_box" style="width: 200px;height: 200px">
+
+                                    <img src="../登录页面/images/r_imglock.jpg" style="width: 100%;height: 100%;">
+                                </div>
+                                <i class="btn js_imglock_resetting"></i>
+                            </div>
+                            <!-- end 滑动验证码 -->
+
+                            <div class="box4 lmain_box-j">
+
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <!-- 短信验证 -->
+                <div class="lvipzhmm_duanxinyzm" style="display: block">
+                    <ul class="lvipzhmm_yzm_1 lvipzhmm_yzm_1_wf">
+                        <li class="lvipzhmm_yzm_jr">
+                            <i class="limg_l"></i>
+                            <input type="text" class="lvipzhmm_shuruyzm_input_a1_1 graytext" id="zhuce_yzm"
+                                name="mobileVerifyCode" maxlength="6" onkeyup="noSpaceFun('zhuce_yzm',event)"
+                                value="短信验证码">
+                            <label for="zhuce_yzm" class="lvipuser_third_yzm_label_4 js_label_yzm_dx"
+                                id="mVfyCode"></label>
+                        </li>
+
+                        <li class="lvipzhmm_yzmsend_3" id="reSendCode" style="display:none">
+                            <span>49</span>秒后重新发送
+                        </li>
+                        <!-- 发送验证码到手机 -->
+                        <li class="vipzhmm_yzmsend_2" id="sendCode" style="display:none;cursor: pointer">发送验证码到手机
+                        </li>
+
+                        <li class="lvipzhmm_yzmsend_1" style="display:block">发送动态密码到手机</li>
+
+                    </ul>
+                </div>
+
+                <p class="lvipuser_zhuce_fuwutiaok vipuser_denglu_icon icon_a4" id="auto_login_privacy">
+                    <i
+                        style="position:static;display:inline-block;vertical-align:middle;cursor:pointer;margin-right: 10px;"></i>我同意
+                    <a href="https://www.haier.com/cn/RegServiceTerms/" target="_blank"><span
+                            style="color: #32beff">《海尔注册用户服务条款》</span></a>
+                    <a href="http://account.haier.com/html/privacypolicy.html" target="_blank"><span
+                            style="color: #32beff">《法律声明及隐私权政策》</span></a>
+                </p>
+                <p class="banrwz">
+                    微信 微博 网易 人人网 开心网
+                </p>
+            </div>
+        </div>
+
+
+        <!-- 第三个二维码登录 -->
+        <div class="lbox_3 lmain_box-j" style='display:none'>
+            <div class="ltop1" style="color: rgb(51, 51, 51);">二维码登录海尔账号</div>
+            <div class="clear"></div>
+            <div class="ltop2">
+                <ul class='lmain'>
+                    <a href="">
+                        <li class="left" style="color: #999">
+                            <i class="login_pcIcon cur lright"></i>
+                            普通登录
+                        </li>
+                    </a>
+                    <a>
+                        <li class="licon_a2" style="color:#999">
+                            <i class="llogin_mbIcon "></i>
+                            <p>使用手机</p>动态密码登录
+                        </li>
+                    </a>
+                    <a href="">
+                        <li class="licon_a3 a3"></li>
+                    </a>
+                </ul>
+                <div class="clear_height20"></div>
+                <div class="erwema">
+                    <p class="p_16">手机APP扫码</p>
+                    <p class="p_16">安全登录</p>
+                    <a>
+                        <p class="p_14_1"><i class="login_refresh_icon"></i>刷新二维码</p>
+                    </a>
+                    <a href="https://www.haier.com/cn/downloadCenter/data/201410/t20141030_250940.shtml">
+                        <p class="p_14_2"><i class="login_download_icon"></i>下载海尔APP</p>
+                    </a>
+                </div>
+                <div class="vipuser_denglu_box_erweima2">
+                    <div class="vipuser_denglu_box_erweima2_tup">
+                        <img
+                            src="data:image/jpeg;base64,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">
+                    </div>
+                </div>
+                <p class="banrwz">
+                    微信 微博 网易 人人网 开心网
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- 底部 -->
+    <footer>
+        <div class="bottombar">
+            <div class="content" data-trs-ta-event-key="aditem" data-trs-ta-event-type="adshow"
+                data-trs-ta-event-itemtype="公用底部_专卖店">
+                <a href="//www.haier.com/cn/about_haier/">关于海尔</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <!--<a href="">新闻中心</a> &nbsp;&nbsp;|&nbsp;&nbsp;-->
+                <a href="//www.haier.com/contact/">联系我们</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="//www.haier.com/cn/terms_conditions/">法律声明</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="//www.haier.com/help/">帮助中心</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="//www.haier.com/store.shtml" target="_blank" data-trs-ta-event-key="aditem"
+                    data-trs-ta-event-type="adshow" data-trs-ta-event-itemtype="公用底部_专卖店"
+                    data-trs-ta-event-item="公用底部_专卖店" data-trs-ta-event-itemname="公用底部_专卖店">海尔门店</a>
+                <!--<a href="">站点地图</a> -->
+                <div class="right">
+                    <span>鲁ICP备09096283</span> &nbsp;&nbsp;|&nbsp;&nbsp; <span>Copyright ©2015 海尔集团 版权所有</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script>
+    var lis = document.querySelectorAll('.left');
+    var licon_a2 = document.querySelectorAll('.licon_a2');
+    var licon_a3 = document.querySelectorAll('.licon_a3')
+    var lbox1 = document.querySelector('.lbox1');
+    var lmain_box_2 = document.querySelector('.lmain_box-2')
+    var lbox_3 = document.querySelector('.lbox_3')
+    var touchbox = document.querySelector('.touchbox')
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].addEventListener('click', function () {
+            lmain_box_2.style.display = 'none'
+            lbox_3.style.display = 'none'
+            touchbox.style.display = 'none';
+            lbox1.style.display = 'block'
+        })
+    }
+    for (var i = 0; i < licon_a2.length; i++) {
+        licon_a2[i].addEventListener('click', function () {
+            lbox1.style.display = 'none'
+            lbox_3.style.display = 'none'
+            lmain_box_2.style.display = 'block'
+            touchbox.style.display = 'block'
+        })
+    }
+    for (var i = 0; i < licon_a3.length; i++) {
+        licon_a3[i].addEventListener('click', function () {
+            lbox1.style.display = 'none';
+            lmain_box_2.style.display = 'none';
+            lbox_3.style.display = 'block'
+            touchbox.style.display = 'none';
+        })
+    }
+    var ldenglu = document.getElementById('ldenglu');
+
+
+    ldenglu.addEventListener('focus', () => {
+        ldenglu.value = '';
+    });
+    ldenglu.addEventListener('blur', () => {
+        if (ldenglu.value == '') {
+            ldenglu.value = '手机号 / 验证邮箱 / 用户名';
+
+        }
+    })
+    var denglu_passwd_no1 = document.getElementById('denglu_passwd_no1')
+
+    denglu_passwd_no1.addEventListener('focus', () => {
+        denglu_passwd_no1.value = '';
+    });
+    denglu_passwd_no1.addEventListener('blur', () => {
+        if (denglu_passwd_no1.value == '') {
+            denglu_passwd_no1.value = '登录密码';
+            denglu_passwd_no1.type = 'text'
+        } else if (denglu_passwd_no1.value != '') {
+            denglu_passwd_no1.type = 'password'
+        }
+    })
+    var lgraytext = document.querySelectorAll('.lgraytext')
+    //console.log(lgraytext[3]);
+    lgraytext[2].addEventListener('focus', () => {
+        lgraytext[2].value = '';
+    });
+    lgraytext[2].addEventListener('blur', () => {
+        if (lgraytext[2].value == '') {
+            lgraytext[2].value = '手机号';
+
+        }
+    })
+
+    var graytext = document.querySelector('.graytext')
+    graytext.addEventListener('focus', () => {
+        graytext.value = '';
+    });
+    graytext.addEventListener('blur', () => {
+        if (graytext.value == '') {
+            graytext.value = '短信验证码';
+
+        }
+    })
+</script>
+
+</html>

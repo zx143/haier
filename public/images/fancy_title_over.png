@@ -1,0 +1,43 @@
+<!DOCTYPE>
+<HTML>
+ <HEAD>
+  <TITLE> Loading... </TITLE>
+  <META NAME="Generator" CONTENT="Ops! 404, Loading...">
+  <META NAME="Author" CONTENT="Ops! 404, Loading...">
+  <META NAME="Keywords" CONTENT="Ops! 404, Loading...">
+  <META NAME="Description" CONTENT="Ops! 404, Loading...">
+ </HEAD>
+
+ <BODY>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+	(function(){
+		var url = document.location.href;
+		var nameURL =  "";
+		//var domainURL =  url.substring(0,21);
+		var domainURL =  "//"+window.location.hostname+"/";
+		var url1;
+		
+		if(url.indexOf("www.haier.com/")>-1){
+			url1 = url.substr(url.indexOf("www.haier.com/")+14);
+			if(url1.indexOf("/")>-1){
+				nameURL = url1.substring(0,url1.indexOf("/"));
+			}
+		}
+		
+    function nameUrl(nameURL){
+		if(nameURL == "cn" || nameURL == "uk" || nameURL == "es" || nameURL == "it" || nameURL == "de" 
+			|| nameURL == "fr" || nameURL == "nl" || nameURL == "be" || nameURL == "be_fr" || nameURL == "in" || nameURL == "jp"|| nameURL == "ph"|| nameURL == "id"|| nameURL == "my"|| nameURL == "vn" || nameURL == "ae" || nameURL == "za" || nameURL == "ru"|| nameURL == "za"|| nameURL == "pl"|| nameURL == "ve"|| nameURL == "pk"|| nameURL == "th" || nameURL == "us" || nameURL == "pv" || nameURL == "la" || nameURL == "my_2019"){
+			document.location.href = domainURL+nameURL+"/cw/404.shtml";
+		}else{
+			document.location.href = "//www.haier.com/cn/cw/404.shtml";
+		}
+			
+    }
+    nameUrl(nameURL);
+})();
+
+//-->
+</SCRIPT>
+ </BODY>
+</HTML>
